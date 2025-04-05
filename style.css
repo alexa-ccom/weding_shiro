@@ -1,0 +1,92 @@
+:root {
+    --pink: #f14e95;
+    --bg: #0a0a0a;
+    --shadow: 0 2px 3px rgb(0 0 0 / 1);
+}
+
+body{
+    font-size: 1.3rem;
+    font-family: "Work Sans", sans-serif;
+    min-height: 2000px;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+    width: 100%;
+    height: 100%;
+    /* background-image: url(img/Menggali-6-Makna-Mimpi-tentang-Lamaran-Pernikahan-Komitmen-Keamanan-dan-Stabilitas-dalam-Hubungan.jpg); */
+    z-index: 1;
+    filter: blur(50%);
+}
+.hero{
+    position:relative ;
+    min-height: 100vh;
+    background-color: #000000;
+    background-image: url(img/Menggali-6-Makna-Mimpi-tentang-Lamaran-Pernikahan-Komitmen-Keamanan-dan-Stabilitas-dalam-Hubungan.jpg);  
+}
+.hero h1, .hero h4, .hero p {
+    text-shadow: var(--shadow);
+}
+
+.hero h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.hero h4 {
+    font-family: "Grey Qo", cursive;
+    font-size: 3rem;
+}
+
+.hero a {
+    color: var(--pink);
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+
+.hero a:hover{
+    background-color: var(--pink);
+    color: white;
+}
+
+/* Media Query */
+/* Laptop */
+@media (Max-width: 992px) {
+html{
+    font-size: 75%;
+}
+
+.simply-countdown>.simply-section {
+    padding: 70px; 
+}
+}
+
+/* Tablet */
+@media (Max-width: 768px) {
+    html{
+        font-size: 65%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 60px;
+        margin: 5px;
+
+
+    }
+}
+
+/* Mobile phone */
+@media (Max-width: 576px) {
+    html{
+        font-size: 60%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 45px;
+        margin: 3px;
+        
+    }
+}
