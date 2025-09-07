@@ -7,7 +7,7 @@
 body{
     font-size: 1.3rem;
     font-family: "Work Sans", sans-serif;
-    min-height: 2000px;
+    min-height: 000px;
 }
 
 .hero::after {
@@ -23,8 +23,9 @@ body{
     filter: blur(50%);
 }
 .hero{
-    position:relative ;
+    position: ;
     min-height: 100vh;
+    display: flex;
     background-color: #000000;
     background-image: url(img/Menggali-6-Makna-Mimpi-tentang-Lamaran-Pernikahan-Komitmen-Keamanan-dan-Stabilitas-dalam-Hubungan.jpg);  
 }
@@ -54,6 +55,8 @@ body{
 }
 
 /* Media Query */
+
+
 /* Laptop */
 @media (Max-width: 992px) {
 html{
@@ -75,7 +78,7 @@ html{
         margin: 5px;
 
 
-    }
+    } 
 }
 
 /* Mobile phone */
